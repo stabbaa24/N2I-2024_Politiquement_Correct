@@ -5,15 +5,16 @@ import Page404 from "./pages/Page404";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import React from "react";
+import {ProtectedRoute} from "./ProtectedRoute";
 
 const router = createBrowserRouter([
     {
         path: '/signup',
-        element: <SignUp/>
+        element: <ProtectedRoute protectedFrom={'user'}><SignUp/></ProtectedRoute>
     },
     {
         path: '/signin',
-        element: <SignIn/>
+        element: <ProtectedRoute protectedFrom={'user'}><SignIn/></ProtectedRoute>
     },
     {
         path: "/",

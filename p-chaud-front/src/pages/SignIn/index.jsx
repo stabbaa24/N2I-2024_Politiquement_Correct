@@ -1,4 +1,5 @@
 import React, {useRef} from 'react';
+import {useUser} from "../../contexts/UserContext";
 
 const dummySignIn = {
     username: "pchaud",
@@ -7,12 +8,14 @@ const dummySignIn = {
 
 const SignIn = () => {
 
+    const {signIn} = useUser();
     const username = useRef('');
     const password = useRef('');
 
     const handleSignIn = () => {
         if (username.current === dummySignIn.username && password.current === dummySignIn.password) {
             console.log("Sign in successful");
+            signIn(dummySignIn);
         } else {
             console.log("Sign in failed");
         }
