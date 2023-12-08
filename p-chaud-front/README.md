@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Résumé
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce document de spécifications se concentre sur le projet P-Chaud développé lors de la Nuit de l'Info 2023. Il s'agit d'une application web et mobile de rencontres qui s'articule autour d'un thème central : le changement climatique. L'objectif est de "pécho", c'est-à-dire de faire des rencontres et d'apprendre à connaître les gens. Dans ce contexte particulier, il s'agit de connaître le climat et de s'interroger sur le changement climatique.
 
-## Available Scripts
+La Nuit de l'Info est un concours national qui rassemble étudiants, enseignants et entreprises pour collaborer au développement d'une application web. L'événement a lieu chaque année, du coucher du soleil le premier jeudi de décembre jusqu'au lever du soleil le lendemain matin. Les participants ont la durée d'une nuit pour concevoir, implémenter et packager une application Web 2.0. Tout au long de cette nuit, des partenaires proposent des défis (par exemple : interface web la plus ergonomique, meilleure architecture système, meilleure collaboration, etc.) et attribuent des prix aux équipes les plus performantes. La nuit est également une occasion pour les participants de rencontrer et de discuter avec des professionnels du secteur, des ingénieurs et des chefs d'entreprise qui viennent soutenir les étudiants et parfois leur donner des conseils pour relever les défis.
 
-In the project directory, you can run:
+## Étude de l'existant en termes de technologie
 
-### `npm start`
+L'analyse de l'existant en termes de technologies se résume à l'utilisation de divers logiciels et langages de programmation choisis en fonction des objectifs à atteindre :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Application Web
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Aspect      | Technologie |
+|-------------|-------------|
+| Front-end   | ReactJS     |
+| Back-end    | NodeJS      |
+| DataBase    | MongoDB     |
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nous hébergerons notre projet en utilisant des plateformes de gestion de version comme Git, ce qui nous permettra de maintenir une version à jour du code et de partager le projet de manière sécurisée tout en préservant l'intégrité de la branche principale grâce à la création de branches.
